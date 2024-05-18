@@ -1,0 +1,68 @@
+<script lang="ts">
+  const content = [
+    "Opening Lecture, course objectives and expectations, What is C++? The C++ compiler, C++ developer environment setup",
+    "Variables, Arithmetic, Input and Output, Boolean Variables and Operators, The if Statement Comparing Numbers and Strings, Multiple Alternatives, Nested Branches",
+    "Strings, Arrays, Memory (intro)",
+    "while loops, for loops, do-while loops, input processing",
+    "nested loops, random",
+    "functions, parameters, pass by reference, <br> pass by value, return values",
+    "array's and 2D array problems",
+    "dynamic memory and pointers, * and & operators",
+    "MIDTERM",
+    "classes and objects, header files",
+    "object-oriented programming, constructors, implementing a simple class",
+    "classes with member functions, public and private field variables",
+    "dynamic memory and pointers with objects",
+    "reading and writing from files and standard IO",
+    "virtual functions and polymorphism",
+    "vectors",
+    "recursion",
+    "FINAL",
+  ];
+
+  const dates = [
+    "05/28",
+    "05/30",
+    "06/04",
+    "06/06",
+    "06/11",
+    "06/13",
+    "06/18",
+    "06/20",
+    "06/25",
+    "06/27",
+    "07/02",
+    "07/04",
+    "07/09",
+    "07/11",
+    "07/16",
+    "07/18",
+    "07/23",
+    "07/25",
+  ];
+
+
+  const iter = content.map((e, i) => {
+    return {content: e, date: dates[i]}});
+</script>
+
+<h3>Schedule</h3>
+
+<table>
+  <tr>
+    <th> Date </th>
+    <th> Content </th>
+  </tr>
+
+    {#each iter as c}
+    <tr>
+        <td>{c.date}</td>
+        <td>{c.content}</td>
+    </tr>
+    {/each}
+
+</table>
+
+<h3>
+  <a href="../" class="highlight">../</a>
+</h3>
