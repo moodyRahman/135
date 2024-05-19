@@ -21,6 +21,27 @@
     "FINAL",
   ];
 
+  const dues = [
+    "",
+    "",
+    "",
+    "Project 1",
+    "",
+    "Project 2",
+    "",
+    "Project 3",
+    "",
+    "Project 4",
+    "",
+    "Project 5",
+    "",
+    "Project 6",
+    "",
+    "Project 7",
+    "",
+    "",
+  ];
+
   const dates = [
     "05/28",
     "05/30",
@@ -43,7 +64,7 @@
   ];
 
   const iter = content.map((e, i) => {
-    return { content: e, date: dates[i] };
+    return { content: e, date: dates[i], due: dues[i] };
   });
 </script>
 
@@ -52,13 +73,15 @@
 <table>
   <tr>
     <th> Date </th>
-    <th> Content </th>
+    <th class="content"> Content </th>
+    <th> Due </th>
   </tr>
 
   {#each iter as c}
     <tr>
       <td>{c.date}</td>
       <td>{c.content}</td>
+      <td>{c.due}</td>
     </tr>
   {/each}
 </table>
