@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from "$app/paths";
   const content = [
-    "Opening Lecture, course objectives and expectations, What is C++? The C++ compiler, C++ developer environment setup",
+    "Opening Lecture and course expectations, What is C++? The C++ compiler, C++ developer environment setup",
     "Variables, Arithmetic, Input and Output, Boolean Variables and Operators, The if Statement Comparing Numbers and Strings, Multiple Alternatives, Nested Branches",
     "Strings, Arrays, Memory (intro)",
     "while loops, for loops, do-while loops, input processing",

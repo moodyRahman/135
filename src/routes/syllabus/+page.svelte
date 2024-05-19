@@ -61,6 +61,8 @@
   coursework.
 </p>
 
+<h3>Additional Commpents on AI</h3>
+
 <p>
   On a more practical note, this class is a very early class in your computer
   science journey. Most of these assignments are incredibly trivial to do with
