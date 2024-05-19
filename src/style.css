@@ -31,6 +31,17 @@ table {
   overflow-x: auto;
   font-weight: 400;
   font-family: "Helvetica", "Arial", sans-serif;
+  border: none;
+  border-collapse: collapse;
+
+}
+
+th.content {
+  width: 75%;
+}
+
+tr:nth-child(odd){
+  background-color: #a6a69a;
 }
 
 td {
@@ -49,6 +60,10 @@ td {
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 10%;
+  }
+
+  th.content {
+    width: 50%;
   }
 
   p {
