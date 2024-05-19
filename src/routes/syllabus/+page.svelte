@@ -1,6 +1,6 @@
-<h3>Syllabus</h3>
+<h2>Syllabus</h2>
 
-<h4>Contact</h4>
+<h3>Contact</h3>
 <p></p>
 <p>Instructor: Moody Rahman</p>
 <p>Email address: moody.byte@gmail.com</p>
@@ -19,7 +19,7 @@
   </a>
 </p>
 
-<h4>Course Description</h4>
+<h3>Course Description</h3>
 
 <p>
   An introduction to software development, using the C++ programming language.
@@ -33,13 +33,13 @@
   program.
 </p>
 
-<h4>Grade Breakdown</h4>
+<h3>Grade Breakdown</h3>
 
 <p>50% Exams</p>
 <p>30% Labs</p>
 <p>20% Lab Quizzes</p>
 
-<h4>Academic Integrity</h4>
+<h3>Academic Integrity</h3>
 
 <p>
   Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating
@@ -72,7 +72,7 @@
   computer scientists.
 </p>
 
-<h4>Students with Disabilities</h4>
+<h3>Students with Disabilities</h3>
 
 <p>
   In compliance with the American Disability Act of 1990 (ADA) and with Section
@@ -85,7 +85,7 @@
   (212) 772-4857/TTY (212) 650-3230).
 </p>
 
-<h4>Hunter College Policy on Sexual Misconduct</h4>
+<h3>Hunter College Policy on Sexual Misconduct</h3>
 
 <p>
   In compliance with the CUNY Policy on Sexual Misconduct, Hunter College
