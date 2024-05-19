@@ -1,5 +1,8 @@
 import adapter from '@sveltejs/adapter-static';
 
+
+
+console.log("base is ", ((process.env.NODE_ENV === 'development') ? '' : '/135'))
 export default {
 	kit: {
 		adapter: adapter({
@@ -9,7 +12,10 @@ export default {
 			assets: 'build',
 			fallback: "index.html",
 			precompress: false,
-			strict: true
-		})
+			strict: true,
+		}),
+		paths: {
+			base: ((process.env.NODE_ENV === 'development') ? '' : '/135')
+		},
 	}
 };

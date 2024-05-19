@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   const content = [
     "Opening Lecture, course objectives and expectations, What is C++? The C++ compiler, C++ developer environment setup",
     "Variables, Arithmetic, Input and Output, Boolean Variables and Operators, The if Statement Comparing Numbers and Strings, Multiple Alternatives, Nested Branches",
@@ -41,9 +42,9 @@
     "07/25",
   ];
 
-
   const iter = content.map((e, i) => {
-    return {content: e, date: dates[i]}});
+    return { content: e, date: dates[i] };
+  });
 </script>
 
 <h3>Schedule</h3>
@@ -54,13 +55,12 @@
     <th> Content </th>
   </tr>
 
-    {#each iter as c}
+  {#each iter as c}
     <tr>
-        <td>{c.date}</td>
-        <td>{c.content}</td>
+      <td>{c.date}</td>
+      <td>{c.content}</td>
     </tr>
-    {/each}
-
+  {/each}
 </table>
 
 <h3>
