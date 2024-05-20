@@ -2,43 +2,43 @@
   import { base } from "$app/paths";
   const content = [
     "Opening Lecture and course expectations, What is C++? The C++ compiler, C++ developer environment setup",
-    "Variables, Arithmetic, Input and Output, Boolean Variables and Operators, The if Statement Comparing Numbers and Strings, Multiple Alternatives, Nested Branches",
+    "Variables, Arithmetic, Input and Output, Boolean Variables and Operators,<br> The if Statement Comparing Numbers and Strings, Multiple Alternatives, Nested Branches",
     "Strings, Arrays, Memory (intro)",
-    "while loops, for loops, do-while loops, input processing",
-    "nested loops, random",
-    "functions, parameters, pass by reference, <br> pass by value, return values",
+    "while loops, for loops, do-while loops, input processing, nested loops, random",
+    "reading and writing from files and standard IO",
+    "functions, parameters, pass by reference, pass by value, return values",
     "array's and 2D array problems",
     "dynamic memory and pointers, * and & operators",
-    "MIDTERM",
+    "MIDTERM Exam",
     "classes and objects, header files",
     "object-oriented programming, constructors, implementing a simple class",
     "classes with member functions, public and private field variables",
     "dynamic memory and pointers with objects",
-    "reading and writing from files and standard IO",
     "virtual functions and polymorphism",
     "vectors",
     "recursion",
-    "FINAL",
+    "Final Review",
+    "FINAL Exam",
   ];
 
   const dues = [
     "",
     "",
     "",
+    "",
     "Project 1",
+    "",
     "",
     "Project 2",
     "",
+    "",
     "Project 3",
+    "",
     "",
     "Project 4",
     "",
+    "",
     "Project 5",
-    "",
-    "Project 6",
-    "",
-    "Project 7",
-    "",
     "",
   ];
 
@@ -80,7 +80,7 @@
   {#each iter as c}
     <tr>
       <td>{c.date}</td>
-      <td>{c.content}</td>
+      <td>{@html c.content}</td>
       <td>{c.due}</td>
     </tr>
   {/each}

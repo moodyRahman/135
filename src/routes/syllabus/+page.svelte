@@ -35,9 +35,29 @@
 
 <h3>Grade Breakdown</h3>
 
-<p>50% Exams</p>
-<p>30% Labs</p>
-<p>20% Lab Quizzes</p>
+<p>45% Final Exam</p>
+<p>35% Midterm Exam</p>
+<p>20% Projects</p>
+<p>5% Lab Quizzes</p>
+
+<h3>Exams</h3>
+<p>
+  We will be having two exams this semester, both of them will be cumulative for
+  everything covered in class up until that point. The final will be on the
+  entire course.
+</p>
+<h3>Projects</h3>
+<p>
+  The course schedule outlines the due dates of projects. These assignments will
+  serve as long term homework for you to complete. Use time during the
+  recitation section to get a head start on them.
+</p>
+
+<h3>Lab Quizzes</h3>
+<p>
+  Lab Quizzes are administered during the beginning of the recitation and will
+  cover the recent lectures.
+</p>
 
 <h3>Academic Integrity</h3>
 
@@ -61,7 +81,7 @@
   coursework.
 </p>
 
-<h3>Additional Commpents on AI</h3>
+<h3>Additional Comments on AI</h3>
 
 <p>
   On a more practical note, this class is a very early class in your computer
