@@ -17,9 +17,11 @@ export default {
 		}),
 		paths: {
 			base: ((process.env.NODE_ENV === 'development') ? '' : '/135')
+			// base: ""
+
 		},
 		prerender: {
-			handleHttpError: "ignore"
+			handleHttpError: "ignore",
 		}
 	}
 };

@@ -1,9 +1,12 @@
 export const load = async ({ params, fetch }) => {
-  const res = await fetch(`../1.md`);
-  const content = await res.text();
+  // const res = await fetch(`/api`);
+  // const content = await res.json();
 
-  return {
-    number: params.number,
-    content: content,
-  };
+  // const here = content.content.find((x) => x.file === params.number);
+  // return {
+  //   number: params.number,
+  //   content: here.content,
+  // };
+
+  return { slug: params.number };
 };
