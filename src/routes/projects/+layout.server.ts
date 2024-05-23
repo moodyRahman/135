@@ -7,7 +7,7 @@ type ProjectData = {
 export async function load({ params, fetch }) {
   let j = [];
 
-  const out = {};
+  const out: ProjectData = {}; // Add index signature to allow indexing with a string
   const f = await fs.readdir("./static/projects");
   const z = await Promise.all(
     f.map(async (x) => {
