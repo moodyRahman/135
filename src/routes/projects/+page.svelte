@@ -24,7 +24,7 @@
   </h5>
 {/each}
 
-<h5><a href="./test/" class="highlight">test</a></h5>
+<h5><a href="../" class="highlight">../</a></h5>
 
 <!-- <h5><a href="./1" class="highlight">Project 1</a></h5>
 <h5><a href="./3" class="highlight">Project 3</a></h5>

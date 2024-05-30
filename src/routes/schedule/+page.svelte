@@ -5,7 +5,6 @@
     "Variables, Arithmetic, Input and Output, Boolean Variables and Operators,<br> The if Statement Comparing Numbers and Strings, Multiple Alternatives, Nested Branches",
     "Strings, Arrays, Memory (intro)",
     "while loops, for loops, do-while loops, input processing, nested loops, random",
-    "reading and writing from files and standard IO",
     "functions, parameters, pass by reference, pass by value, return values",
     "array's and 2D array problems",
     "dynamic memory and pointers, * and & operators",
@@ -17,6 +16,7 @@
     "virtual functions and polymorphism",
     "vectors",
     "recursion",
+    "reading and writing from files and standard IO",
     "Final Review",
     "FINAL Exam",
   ];

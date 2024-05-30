@@ -5,10 +5,9 @@
   data.projects;
 </script>
 
-{data.slug}
-
 {@html marked(data.projects[data.slug + ".md"])}
 
-<br /><br />
-
+<h5>
+  <a href="../" class="highlight">../</a>
+</h5>
 <!-- {data.files} -->
