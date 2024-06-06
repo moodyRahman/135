@@ -8,6 +8,7 @@
   Mode of instruction: In-person. Meeting times: Tuesday and Thursday,
   9:50-12:10 Lecture, 12:30-2:00 Recitation.
 </p>
+<p>Gradescope Entry Code: 3RY66G</p>
 <p>Classroom: HN 1001C</p>
 <p>
   Office hours: By appointment, preferably immediately before or after class.
