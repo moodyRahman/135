@@ -8,15 +8,15 @@
     "functions, parameters, pass by reference, pass by value, return values, random",
     "array's and 2D array problems, nested loops",
     "dynamic memory and pointers, * and & operators",
+    "Day Off",
     "MIDTERM Exam",
     "classes and objects, header files",
     "object-oriented programming, constructors, implementing a simple class",
     "classes with member functions, public and private field variables",
     "dynamic memory and pointers with objects",
     "virtual functions and polymorphism",
-    "vectors",
+    "vectors reading and writing from files and standard IO",
     "recursion",
-    "reading and writing from files and standard IO",
     "Final Review",
     "FINAL Exam",
   ];
@@ -31,6 +31,7 @@
     "Project 1",
     "",
     "",
+    "",
     "Project 2",
     "",
     "Project 3",
@@ -38,7 +39,6 @@
     "",
     "Project 4",
     "",
-    "Project 5",
     "",
   ];
 
